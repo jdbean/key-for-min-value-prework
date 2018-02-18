@@ -17,4 +17,4 @@ def key_for_min_value(name_hash)
   smallest_name
 end
 
-key_for_min_value({bob =})
+key_for_min_value({})
