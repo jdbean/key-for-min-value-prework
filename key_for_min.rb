@@ -4,6 +4,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   smallest_name = nil
+  if name_hash.first != nil
   smallest_value = name_hash.first[1]
   name_hash.each do |name, value|
     if value <= smallest_value
@@ -15,4 +16,4 @@ def key_for_min_value(name_hash)
   smallest_name
 end
 
-key_for_min_value({})
+key_for_min_value({bob =})
